@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="buttons">
+<label for="on">Power</label><input type="checkbox" class="toggle" id="on">
+<button class="button" id="start">Start</button>
+<label for="strict">strict</label><input type="checkbox" class="toggle" id="strict">
+</div>
+
+
+<div id="topleft"></div>
+<div id="topright"></div>
+<div id="bottomleft"></div>
+<div id="bottomright"></div>
+
+<div id="instructions">
+    <h4>How to Play</h4>
+    <p>Check the power box, then click start. The computer will start the round by lighting up a color. The player clicks the color and the computer will move to the second round where it will consecutively
+        add more colors in sequence. The player must match the sequence.  If you do not check "strict" and you miss a color, the round will restart. In strict mode, if you miss a color then the game will restart from the beginning.
+        You win if you complete 15 rounds.</p>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

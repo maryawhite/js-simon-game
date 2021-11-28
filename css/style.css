@@ -1,0 +1,203 @@
+body {
+    background-image: url(/img/blackbgstars.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+/*background image Photo by Kai Pilger from Pexels*/
+
+#buttons {
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#buttons #start {
+    padding: 1em;
+    margin: 2em;
+}
+
+#topleft {
+    background: darkgreen;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 230px;
+    left: 120px;
+    margin: -100px 0 0 -100px;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 3px 1px 1px 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#topright {
+    background-color: darkred;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 230px;
+    left: 120px;
+    margin: -100px 0 0 0;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 3px 3px 1px 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#bottomleft {
+    background-color: darkgoldenrod;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 230px;
+    left: 120px;
+    margin: 0 -100px 0 -100px;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 1px 1px 3px 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+#bottomright {
+    background-color: darkblue;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 230px;
+    left: 120px;
+    margin: 0 0 -100px 0;
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 1px 3px 3px 1px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#instructions {
+    position: absolute;
+    top: 330px;
+    width: 50%;
+    color: white;
+    margin: 1em;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    body {
+        background-image: url(/img/blackbgstars.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    /*background image Photo by Kai Pilger from Pexels*/
+
+    #buttons {
+        position: relative;
+        color: white;
+        text-align: center;
+        margin-bottom: 2em;
+        padding: 1.5em;
+        left: 10%;
+    }
+
+    #buttons #start {
+        padding: 1em;
+        margin: 2em;
+    }
+
+    #topleft {
+        background: darkgreen;
+        position: absolute;
+        height: 225px;
+        width: 225px;
+        top: 405px;
+        left: 70%;
+        margin: -225px 0 0 -225px;
+        border-style: solid;
+        border-color: #CCC;
+        box-shadow: -5px -5px 0 5px #CCC;
+        border-width: 5px 2px 2px 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    #topright {
+        background-color: darkred;
+        position: absolute;
+        height: 225px;
+        width: 225px;
+        top: 405px;
+        left: 70%;
+        margin: -225px 0 0 0;
+        border-style: solid;
+        border-color: #CCC;
+        box-shadow: 5px -5px 0 5px #CCC;
+        border-width: 5px 5px 2px 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    #bottomleft {
+        background-color: darkgoldenrod;
+        position: absolute;
+        height: 225px;
+        width: 225px;
+        top: 405px;
+        left: 70%;
+        margin: 0 -225px 0 -225px;
+        border-style: solid;
+        border-color: #CCC;
+        box-shadow: -5px 5px 0 5px #CCC;
+        border-width: 2px 2px 5px 5px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+
+    }
+
+    #bottomright {
+        background-color: darkblue;
+        position: absolute;
+        height: 225px;
+        width: 225px;
+        top: 405px;
+        left: 70%;
+        margin: 0 0 -225px 0;
+        border-style: solid;
+        border-color: #CCC;
+        box-shadow: 5px 5px 0 5px #CCC;
+        border-width: 2px 5px 5px 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    #instructions {
+        position: absolute;
+        margin-right: auto;
+        margin-left: 2em;
+        color: white;
+        top: 250px;
+        width: 30%;
+    }
+
+
+}

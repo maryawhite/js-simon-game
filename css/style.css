@@ -5,13 +5,36 @@ body {
 }
 /*background image Photo by Kai Pilger from Pexels*/
 
-#buttons {
+#buttons{
     position: absolute;
     color: white;
     text-align: center;
     margin: 1em;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+#turn {
+    position: absolute;
+    top: 130px;
+    left: 320px;
+    background: #f6f3f5;
+    color: red;
+    font-family: courier, sans-serif;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.text2 {
+    position: absolute;
+    font-family: courier, sans-serif;
+    left: 320px;
+    top: 165px;
+    color: white;
 }
 
 #buttons #start {
@@ -107,13 +130,17 @@ body {
     }
     /*background image Photo by Kai Pilger from Pexels*/
 
-    #buttons {
-        position: relative;
+    #buttons{
+        position: absolute;
         color: white;
         text-align: center;
-        margin-bottom: 2em;
+        /*margin-bottom: 2em;*/
         padding: 1.5em;
-        left: 10%;
+        /*left: 10%;*/
+        left: 50%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
     }
 
     #buttons #start {
@@ -198,6 +225,36 @@ body {
         top: 250px;
         width: 30%;
     }
+
+    #turn {
+        position: absolute;
+        top: 80px;
+        left: 85%;
+        background: #f6f3f5;
+        color: red;
+        font-family: courier, sans-serif;
+        font-size: 20px;
+        height: 30px;
+        width: 50px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .text2 {
+        position: absolute;
+        font-family: courier, sans-serif;
+        top: 125px;
+        left: 85%;
+        color: white;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
 
 
 }
